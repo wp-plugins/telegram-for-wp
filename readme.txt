@@ -11,7 +11,7 @@ This plugin based on Notifygram service by Anton Ilzheev and allows WordPress si
 
 == Description ==
 Hi,
-If you are admin of a WordPress website and want to receive notifications about your website (comment submit, user register, new core update and etc.) in your telegram account, you are welcome to use this plugin.
+If you are admin of a WordPress website and want to receive notifications about your website (comment submit, user register, new core update and etc.) in your telegram account, you are welcome to use this plugin. This will help you to integrate Telegram with WordPress.
 
 This plugin based on <a href="http://notifygram.org" target="_blank">Notifygram</a> service by Anton Ilzheev and allows WordPress site to send notifications to telegram.
 
