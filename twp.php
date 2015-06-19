@@ -89,7 +89,7 @@ if (get_option('twp_api_key') && get_option('twp_api_token') ) {
     } else {
         function twp_api_error_notice() {
         $class = "error";
-        $message = sprintf(__('Your API key or API token are not set. Please go to %s and set them.','twp-plugin'), "<a href='".admin_url('admin.php?page=twp/twp.php')."'>".__("TWP Settings", "twp-plugin")."</a>");
+        $message = sprintf(__('Your API key or API token are not set. Please go to %s and set them.','twp-plugin'), "<a href='".admin_url('admin.php?page=telegram-for-wp/twp.php')."'>".__("TWP Settings", "twp-plugin")."</a>");
             echo"<div class=\"$class\"> <p>$message</p></div>"; 
         }
     add_action( 'admin_notices', 'twp_api_error_notice' ); 
