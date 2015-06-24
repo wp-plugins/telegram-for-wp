@@ -4,12 +4,14 @@
  * @version 1.0
  */
 /*
-Plugin Name: Telegram for Wordpress
+Plugin Name: Telegram for WordPress
 Description: Allows user to recieve WordPress notifications in their Telegram account. This plugin based on notifygram.org by Anton Ilzheev.
-Author: Baloot Studio
+Author: Ameer Mousavi | Baloot Studio
 Version: 1.0
 Author URI: http://ameer.ir/
 License: GPLv2 or later.
+Text Domain: twp-plugin
+Domain Path: /lang
 */
 $twp_settings = 
 // create custom plugin settings menu
@@ -65,6 +67,18 @@ function twp_settings_page() {
     function twp_load_textdomain() {
       load_plugin_textdomain( 'twp-plugin', false, dirname( plugin_basename( __FILE__ ) ) . '/lang' ); 
     }
+    /**
+    * Add action links to the plugin list for TWP.
+    *
+    * @param $links
+    * @return array
+    */
+    function twp_plugin_action_links($links) {
+    $links[] = '<a href="http://hamyarwp.com/telegram-for-wp/">' . __('Persian Tutorial in HamyarWP', 'twp-plugin') . '</a>';
+    return $links;
+    }
+    add_action('plugin_action_links_' . plugin_basename(__FILE__), 'twp_plugin_action_links');
+
 // Checks if TOKEN and API has been set. If not, show a warning message.
 if (get_option('twp_api_key') && get_option('twp_api_token') ) {
     require_once("Notifygram.class.php");
@@ -89,7 +103,7 @@ if (get_option('twp_api_key') && get_option('twp_api_token') ) {
     } else {
         function twp_api_error_notice() {
         $class = "error";
-        $message = sprintf(__('Your API key or API token are not set. Please go to %s and set them.','twp-plugin'), "<a href='".admin_url('admin.php?page=telegram-for-wp/twp.php')."'>".__("TWP Settings", "twp-plugin")."</a>");
+        $message = sprintf(__('Your API key or API token are not set. Please go to %s and set them.','twp-plugin'), "<a href='".admin_url('admin.php?page=twp/twp.php')."'>".__("TWP Settings", "twp-plugin")."</a>");
             echo"<div class=\"$class\"> <p>$message</p></div>"; 
         }
     add_action( 'admin_notices', 'twp_api_error_notice' ); 
