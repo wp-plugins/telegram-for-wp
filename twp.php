@@ -5,7 +5,7 @@
  */
 /*
 Plugin Name: Telegram for WordPress
-Description: Allows user to recieve WordPress notifications in their Telegram account. This plugin based on notifygram.org by Anton Ilzheev.
+Description: Allows admins to recieve thier WordPress site notifications in their Telegram account. This plugin based on notifygram.org by Anton Ilzheev.
 Author: Ameer Mousavi | Baloot Studio
 Version: 1.0
 Author URI: http://ameer.ir/
@@ -31,7 +31,7 @@ function register_twp_settings() {
 function twp_settings_page() {
 ?>
 <div class="wrap">
-    <h2>Telegram for WordPress</h2>
+    <h2><?php  echo __("Telegram for WordPress", "twp-plugin") ?></h2>
     <form method="post" action="options.php">
         <?php settings_fields( 'twp-settings-group' ); ?>
         <table class="form-table">
@@ -47,9 +47,13 @@ function twp_settings_page() {
                 <th scope="row">API Token</th>
                 <td><input type="text" name="twp_api_token" value="<?php echo get_option('twp_api_token'); ?>" /></td>
             </tr>
-             <tr valign="top">
+            <tr valign="top">
                 <th scope="row"><?php  echo __("Show Project name in messages", "twp-plugin") ?></th>
                 <td><input type="checkbox" name="twp_project_name" value="1" <?php checked( '1', get_option( 'twp_project_name' ) ); ?> /></td>
+            </tr>
+            <tr valign="top">
+                <th scope="row"><?php  echo __("Send a test Message", "twp-plugin") ?></th>
+                <td><input type="button" name="twp_test" value='<?php  echo __("Send now!", "twp-plugin") ?>' onclick="if(jQuery('input[name=twp_api_key]').val() != '' && jQuery('input[name=twp_api_token]').val() != '' ) {jQuery.post('<?php echo plugins_url( 'test.php', __FILE__ ) ?>', { message: '<?php  echo __("This is a test message", "twp-plugin") ?>', api_key: '<?php echo get_option('twp_api_key'); ?>', api_token:'<?php echo get_option('twp_api_token'); ?>'}); } else {alert(' <?php  echo __("API key or API token are empty", "twp-plugin") ?>') }"/></td>
             </tr>
         </table>
         <p class="submit">
@@ -81,6 +85,7 @@ function twp_settings_page() {
 
 // Checks if TOKEN and API has been set. If not, show a warning message.
 if (get_option('twp_api_key') && get_option('twp_api_token') ) {
+
     require_once("Notifygram.class.php");
 	//This will get information about sent mail from PHPMailer and send it to user
     function twp_mail_action($result, $to, $cc, $bcc, $subject, $body){
