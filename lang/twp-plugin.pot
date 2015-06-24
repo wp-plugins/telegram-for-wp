@@ -1,26 +1,28 @@
+# Copyright (C) 2015 Telegram for WordPress
+# This file is distributed under the same license as the Telegram for WordPress package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Telegram for WordPress\n"
-"POT-Creation-Date: 2015-06-10 20:20+0330\n"
-"PO-Revision-Date: 2015-06-15 12:14+0330\n"
-"Last-Translator: Ameer Mousavi <me@ameer.ir>\n"
-"Language-Team: Baloot Studio <me@ameer.ir>\n"
+"Project-Id-Version: Telegram for WordPress 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/telegram-for-wp\n"
+"POT-Creation-Date: 2015-06-24 12:43:42+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.9\n"
-"X-Poedit-Basepath: D:\\wamp\\www\\eduma\\wp-content\\plugins\\twp\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: __\n"
-"Language: en_US\n"
-"X-Poedit-SearchPath-0: .\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 
-#: twp.php:37
+#. #-#-#-#-#  plugin.pot (Telegram for WordPress 1.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: twp.php:34
+msgid "Telegram for WordPress"
+msgstr ""
+
+#: twp.php:39
 msgid "Instructions"
 msgstr ""
 
-#: twp.php:38
-#, php-format
+#: twp.php:40
 msgid ""
 "Login into %s using phone number registered in Telegram. Notifygram will "
 "send confirmation code via Telegram. Once you receive code, enter it in "
@@ -32,15 +34,52 @@ msgid ""
 "project name and copy paste those codes in this page. Save and Enjoy! "
 msgstr ""
 
-#: twp.php:49
+#: twp.php:51
 msgid "Show Project name in messages"
 msgstr ""
 
-#: twp.php:92
-#, php-format
+#: twp.php:55
+msgid "Send a test Message"
+msgstr ""
+
+#: twp.php:56
+msgid "Send now!"
+msgstr ""
+
+#: twp.php:56
+msgid "This is a test message"
+msgstr ""
+
+#: twp.php:56
+msgid "API key or API token are empty"
+msgstr ""
+
+#: twp.php:60
+msgid "Save Changes"
+msgstr ""
+
+#: twp.php:81
+msgid "Persian Tutorial in HamyarWP"
+msgstr ""
+
+#: twp.php:111
 msgid "Your API key or API token are not set. Please go to %s and set them."
 msgstr ""
 
-#: twp.php:92
+#: twp.php:111
 msgid "TWP Settings"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Allows admins to recieve thier WordPress site notifications in their "
+"Telegram account. This plugin based on notifygram.org by Anton Ilzheev."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ameer Mousavi | Baloot Studio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://ameer.ir/"
 msgstr ""
