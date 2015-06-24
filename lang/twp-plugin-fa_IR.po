@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Telegram for WordPress\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/telegram-for-wp\n"
+"POT-Creation-Date: 2015-06-24 12:43:42+00:00\n"
+"PO-Revision-Date: 2015-06-24 17:15+0330\n"
+"Last-Translator: Ameer Mousavi <me@ameer.ir>\n"
+"Language-Team: Baloot Studio <me@ameer.ir>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: D:\\wamp\\www\\eduma\\wp-content\\plugins\\telegram-for-"
+"wp\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. Plugin Name of the plugin/theme
+#: twp.php:34
+msgid "Telegram for WordPress"
+msgstr "تلگرام برای وردپرس"
+
+#: twp.php:39
+msgid "Instructions"
+msgstr "راهنمای کار"
+
+#: twp.php:40
+msgid ""
+"Login into %s using phone number registered in Telegram. Notifygram will "
+"send confirmation code via Telegram. Once you receive code, enter it in "
+"Notifygram and click confirm. After login, in 'Add Project' section, enter a "
+"custom name; this could be anything but we recommend to use your site name. "
+"After adding project, you will see the project view (users, api , etc). You "
+"can also add other admin of your website in the list but they have to "
+"confirm using confirmation code. Click on API link at the right of the "
+"project name and copy paste those codes in this page. Save and Enjoy! "
+msgstr ""
+"در سرویس %s لاگین کنید. از شماره تلفنی که با آن در تلگرام ثبت‌نام کرده‌اید "
+"استفاده کنید. Notifygram یک کد تأیید از طریق تلگرام برای شما می‌فرستد. پس از "
+"دریافت کد آن را در Notifygram وارد کنید و بر روی دکمه confirm کلیک کنید. بعد "
+"از لاگین، در قسمت Add Project، یک نام دلخواه وارد و روی دکمه Add Project "
+"کلیک کنید. پیشنهاد می‌کنیم نام پروژه را نام سایت خودتان بگذارید. پس از ساختن "
+"پروژه، روی گزینه API (سمت راست صفحه، مقابل نام پروژه) کلیک کنید و کدهای داده "
+"شده را کپی و در این صفحه paste کنید. تنظیمات را ذخیره کنید و لذت ببرید."
+
+#: twp.php:51
+msgid "Show Project name in messages"
+msgstr "نمایش نام پروژه در ابتدای پیام‌های تلگرام"
+
+#: twp.php:55
+msgid "Send a test Message"
+msgstr "فرستادن یک پیام آزمایشی"
+
+#: twp.php:56
+msgid "Send now!"
+msgstr "بفرست!"
+
+#: twp.php:56
+msgid "This is a test message"
+msgstr "این یک پیام آزمایشی است."
+
+#: twp.php:56
+msgid "API key or API token are empty"
+msgstr "کدهای API شما تنظیم نشده اند."
+
+#: twp.php:60
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+#: twp.php:81
+msgid "Persian Tutorial in HamyarWP"
+msgstr "آموزش فارسی در همیار وردپرس"
+
+#: twp.php:111
+msgid "Your API key or API token are not set. Please go to %s and set them."
+msgstr "کدهای API شما تنظیم نشده اند. لطفا به %s بروید و آنها را تنظیم کنید."
+
+#: twp.php:111
+msgid "TWP Settings"
+msgstr "تنظیمات TWP"
+
+#. Description of the plugin/theme
+msgid ""
+"Allows admins to recieve thier WordPress site notifications in their "
+"Telegram account. This plugin based on notifygram.org by Anton Ilzheev."
+msgstr ""
+"به مدیران سایت این امکان را می‌دهد تا اطلاع‌رسانی‌های سایت وردپرسی خودشان را در "
+"اکانت تلگرام دریافت کنند. این افزونه بر پایه سایت notifygram.org است."
+
+#. Author of the plugin/theme
+msgid "Ameer Mousavi | Baloot Studio"
+msgstr "امیر موسوی از بلوط استودیو"
+
+#. Author URI of the plugin/theme
+msgid "http://ameer.ir/"
+msgstr "http://ameer.ir/"
