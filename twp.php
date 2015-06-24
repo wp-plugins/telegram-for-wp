@@ -1,13 +1,13 @@
 <?php
 /**
  * @package Telegram for Wordpress
- * @version 1.0
+ * @version 1.1
  */
 /*
 Plugin Name: Telegram for WordPress
 Description: Allows admins to recieve thier WordPress site notifications in their Telegram account. This plugin based on notifygram.org by Anton Ilzheev.
 Author: Ameer Mousavi | Baloot Studio
-Version: 1.0
+Version: 1.1
 Author URI: http://ameer.ir/
 License: GPLv2 or later.
 Text Domain: twp-plugin
