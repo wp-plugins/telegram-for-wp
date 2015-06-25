@@ -3,7 +3,7 @@ Contributors: amir-mousavi
 Tags: telegram,notifications,email,admin,plugin
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: trunk
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 
@@ -18,6 +18,8 @@ This plugin based on <a href="http://notifygram.org" target="_blank">Notifygram<
 Note: You have to turn on WordPress email notifications in order to receive Telegram notifications. Because in this version you will receive the body of any email that WordPrss is sending.
 
 Please feedback to make this plugin better.
+
+Here is a  <a href="http://hamyarwp.com/telegram-for-wp" target="_blank">Persian Tutorial </a>
 
 == Installation ==
 1. Download Telegram for WordPress plugin from github (https://github.com/Amir-Mousavi/notifygram-wordpress-plugin/archive/master.zip). 
