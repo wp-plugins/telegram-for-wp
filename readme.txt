@@ -19,6 +19,8 @@ Note: You have to turn on WordPress email notifications in order to receive Tele
 
 Please feedback to make this plugin better.
 
+Here is a  <a href="http://hamyarwp.com/telegram-for-wp" target="_blank">Persian Tutorial </a>
+
 == Installation ==
 1. Download Telegram for WordPress plugin from github (https://github.com/Amir-Mousavi/notifygram-wordpress-plugin/archive/master.zip). 
 
