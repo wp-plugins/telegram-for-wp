@@ -3,7 +3,7 @@
  * Notifygram.org — easy & secure notifications directly to Telegram
  * @author Anton Ilzheev <ilzheev@gmail.com>
  */
-class Notifygram
+class Notifygram_Class
 {
     const REQUEST_SUCCESS = 'success';
     const REQUEST_ERROR = 'error';

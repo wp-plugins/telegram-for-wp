@@ -3,7 +3,7 @@ Contributors: amir-mousavi
 Tags: telegram,notifications,email,admin,plugin
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 
@@ -35,3 +35,16 @@ Here is a  <a href="http://hamyarwp.com/telegram-for-wp" target="_blank">Persian
 6. Add telegram users you want to receive notifications
 
 7. Copy API key and API token of your project and paste them in plugin settings page
+
+== Changelog ==
+
+= 1.2 =
+* Fixing the conflict with Contact Form 7
+* Change "Notifygram" class name to "Notifygram_Class"
+
+= 1.1 =
+* Add Persian Tutorial Link
+* Add test button
+
+= 1.0 =
+* Initial Release
